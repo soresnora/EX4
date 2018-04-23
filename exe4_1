@@ -1,0 +1,8 @@
+def enngtopiglatin(string):
+    tordel = string.split()
+    for i in tordel:
+        valasz=i[1:]+i[0] + "ay"
+        print(valasz,end=' ')
+
+mondat=input("Lefordítandó mondat: ")
+piglatin(mondat)
