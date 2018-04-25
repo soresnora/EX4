@@ -1,5 +1,4 @@
 def exe4(string,kerdes):
-
     if kerdes=="pig":
         print(engtopig(string))
     else:
